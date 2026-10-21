@@ -1,4 +1,4 @@
-public class PlusStrategy implements AddStrategy {
+public class PlusStrategy implements CalculationStrategy {
 
     @Override
     public double calculate(double a, double b) {
